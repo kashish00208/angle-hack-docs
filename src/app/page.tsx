@@ -1,9 +1,17 @@
-import React from "react";
+import Header from "@/Components/Header";
+import LeftBar from "@/Components/LeftBar";
 
-const Home = () => {
+export default function Home() {
   return (
-    <></>
-  );
-};
+    <div className="flex flex-col h-screen">
+      <Header />
 
-export default Home;
+      <div className="flex flex-1">
+        <LeftBar />
+
+        <div className="flex-1 p-8 overflow-y-auto">
+        </div>
+      </div>
+    </div>
+  );
+}
