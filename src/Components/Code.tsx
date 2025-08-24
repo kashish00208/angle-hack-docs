@@ -6,7 +6,7 @@ interface CodeProps {
 
 const Code: React.FC<CodeProps> = ({ children }) => {
   return (
-    <pre className="bg-gray-100 text-white p-4 rounded-xl overflow-x-auto mb-4">
+    <pre className="bg-gray-300 text-black p-4 rounded-xl overflow-x-auto mb-4 my-4">
       <code>{children}</code>
     </pre>
   );

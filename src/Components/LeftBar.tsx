@@ -20,13 +20,10 @@ const docs: DocsItem[] = [
   {
     title: "SDK",
     items: [
-      { title: "Configuration", href: "/docs/configuration" },
-      { title: "EndUser Management", href: "/docs/enduser" },
-      { title: "Planning & Execution", href: "/docs/planning" },
-      { title: "Tools", href: "/docs/tools" },
+      { title: "config", href: "/docs/config" },
+      { title: "Execution hooks", href: "/docs/exicution-hooks" },
       { title: "Storage", href: "/docs/storage" },
-      { title: "Hooks & Telemetry", href: "/docs/hooks-telemetry" },
-      { title: "Extending the SDK", href: "/docs/extending" },
+      { title: "Telemetry", href: "/docs/hooks-telemetry" },
       { title: "API Reference", href: "/docs/api" },
     ],
   },
