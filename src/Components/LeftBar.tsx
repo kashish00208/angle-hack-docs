@@ -31,7 +31,7 @@ const docs: DocsItem[] = [
 
 const LeftBar = () => {
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({
-    Docs: true, // open by default
+    Docs: true, 
     SDK: true,
   });
 
@@ -40,11 +40,10 @@ const LeftBar = () => {
   };
 
   return (
-    <div className="w-1/6 border-r-2 border-black/35 h-screen p-4 text-black/80 text-md font-bold">
+    <div className="w-1/6 border-r-2 border-black/35  p-4 text-black/80 text-md font-bold mt-5 ">
       <ul className="space-y-4">
         {docs.map((section, idx) => (
           <li key={idx}>
-            {/* Section header */}
             <button
               onClick={() => toggleSection(section.title)}
               className="w-full flex justify-between items-center p-2 rounded hover:bg-gray-200 transition"
@@ -53,7 +52,6 @@ const LeftBar = () => {
               <span>{openSections[section.title] ? "−" : "+"}</span>
             </button>
 
-            {/* Section items */}
             {openSections[section.title] && section.items && (
               <ul className="ml-4 mt-2 space-y-1 text-black/60 font-normal">
                 {section.items.map((item, subIdx) => (
