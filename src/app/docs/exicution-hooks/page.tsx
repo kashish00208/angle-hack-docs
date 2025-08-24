@@ -24,8 +24,8 @@ const Page = () => {
         <li>
           <code className="bg-gray-200 px-1">beforeStepExicution(plan, planRun, step)</code>{" "}
           → Runs before each step. Return{" "}
-          <code>"CONTINUE"</code> to run the step or{" "}
-          <code>"SKIP"</code> to skip it.
+          <code>`&quot;`CONTINUE`&quot;`</code> to run the step or{" "}
+          <code>`&quot;`SKIP`&quot;`</code> to skip it.
         </li>
         <li>
           <code className="bg-gray-200 px-1">afterExicutionOutput(plan, planRun, step, output)</code>{" "}

@@ -6,7 +6,7 @@ const Page = () => {
     <div className="text-gray-700 text-xl w-3/4">
       <h1 className="font-bold text-6xl text-black py-5">Installation</h1>
       <p className="py-2">
-        Let's get you set up and run a test query to make sure everything is in order.
+        Let`&apos;`s get you set up and run a test query to make sure everything is in order.
       </p>
 
       <p className="text-3xl py-4 font-bold">Install the Portia TypeScript SDK</p>
